@@ -1,0 +1,46 @@
+Origin: ZERO
+Label: zerosaptrepo
+Codename: stable
+Date: Mon, 07 Jul 2025 19:55:38 UTC
+Architectures: amd64 i386 arm64 armhf
+Components: main
+Description: The Official Repo made by ZERO
+MD5Sum:
+ 5b398dcc9af9ff70e50f7d2c1d486b27 34774 main/binary-amd64/Packages
+ 4295f2ee4450b5e6c66b057a7b7d05b4 10802 main/binary-amd64/Packages.gz
+ 08bbe3b8814f99899cbba698957c5809 113 main/binary-amd64/Release
+ 5b398dcc9af9ff70e50f7d2c1d486b27 34774 main/binary-i386/Packages
+ 4295f2ee4450b5e6c66b057a7b7d05b4 10802 main/binary-i386/Packages.gz
+ 00da8df387333a5960c9b72e6c53e188 112 main/binary-i386/Release
+ 5b398dcc9af9ff70e50f7d2c1d486b27 34774 main/binary-arm64/Packages
+ 4295f2ee4450b5e6c66b057a7b7d05b4 10802 main/binary-arm64/Packages.gz
+ 157125b75a2405bba80a832b0684655b 113 main/binary-arm64/Release
+ 5b398dcc9af9ff70e50f7d2c1d486b27 34774 main/binary-armhf/Packages
+ 4295f2ee4450b5e6c66b057a7b7d05b4 10802 main/binary-armhf/Packages.gz
+ b371434dc769df5edcffae58e726884e 113 main/binary-armhf/Release
+SHA1:
+ 95a03f3904dc39c404f796c8b4ebc49ca26efe16 34774 main/binary-amd64/Packages
+ 809f3e53fc37284ac07c90bf7ae0d06ee0859bb5 10802 main/binary-amd64/Packages.gz
+ 794c113a99b5b0d2c46c940fa16adf4196cb4680 113 main/binary-amd64/Release
+ 95a03f3904dc39c404f796c8b4ebc49ca26efe16 34774 main/binary-i386/Packages
+ 809f3e53fc37284ac07c90bf7ae0d06ee0859bb5 10802 main/binary-i386/Packages.gz
+ daca1e7475f74f137354ea5bf900834fb793da6b 112 main/binary-i386/Release
+ 95a03f3904dc39c404f796c8b4ebc49ca26efe16 34774 main/binary-arm64/Packages
+ 809f3e53fc37284ac07c90bf7ae0d06ee0859bb5 10802 main/binary-arm64/Packages.gz
+ d842e469d0f0162536f4357930bd8f1e2c8cb390 113 main/binary-arm64/Release
+ 95a03f3904dc39c404f796c8b4ebc49ca26efe16 34774 main/binary-armhf/Packages
+ 809f3e53fc37284ac07c90bf7ae0d06ee0859bb5 10802 main/binary-armhf/Packages.gz
+ 934b9c8b745d5e5b01dc8efe36dd28e4d5a9bd36 113 main/binary-armhf/Release
+SHA256:
+ 9694455cffce47175f52b049d33fb27608a57d4beccc11e668873b0725cf689a 34774 main/binary-amd64/Packages
+ 66bcf9975ef1ce0e8ffc31c41d17a65d1e86033db13a5a87d116226305300368 10802 main/binary-amd64/Packages.gz
+ 20e456f5d9e0f37241f220dc1362edb9060b6694c3639db5ae78d9f62d900b74 113 main/binary-amd64/Release
+ 9694455cffce47175f52b049d33fb27608a57d4beccc11e668873b0725cf689a 34774 main/binary-i386/Packages
+ 66bcf9975ef1ce0e8ffc31c41d17a65d1e86033db13a5a87d116226305300368 10802 main/binary-i386/Packages.gz
+ a0b2753568f521fe208376a4cc0d70ef8f1354c5e472708ab2f141ee7bb144b3 112 main/binary-i386/Release
+ 9694455cffce47175f52b049d33fb27608a57d4beccc11e668873b0725cf689a 34774 main/binary-arm64/Packages
+ 66bcf9975ef1ce0e8ffc31c41d17a65d1e86033db13a5a87d116226305300368 10802 main/binary-arm64/Packages.gz
+ ed50d67e6ad3b6c00703aa17d019cd86891badb390712aa6d96d5328f0a2f4ea 113 main/binary-arm64/Release
+ 9694455cffce47175f52b049d33fb27608a57d4beccc11e668873b0725cf689a 34774 main/binary-armhf/Packages
+ 66bcf9975ef1ce0e8ffc31c41d17a65d1e86033db13a5a87d116226305300368 10802 main/binary-armhf/Packages.gz
+ d9452bedb4f5e0041568a24d080f5f670c4712b8daca666cf02fb80586c3cd00 113 main/binary-armhf/Release

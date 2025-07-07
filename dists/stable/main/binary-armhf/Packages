@@ -1,0 +1,706 @@
+Package: debootstrap
+Version: 1.0.141~bpo12+1
+Architecture: all
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 325
+Depends: wget, distro-info
+Recommends: sopv | sqv | gpgv, mount, debian-archive-keyring, arch-test (>= 0.11~)
+Suggests: squid-deb-proxy-client, ubuntu-archive-keyring, binutils, xz-utils, zstd
+Multi-Arch: foreign
+Priority: optional
+Section: admin
+Filename: pool/main/d/debootstrap/debootstrap_1.0.141~bpo12+1_all.deb
+Size: 50248
+SHA256: d1f22958e102750824362e5c55af172c46de941582d77150905480e5ba830c2e
+SHA1: a8ca4c4da50a6e72816209470c8164b2d090f650
+MD5sum: 77764dfba0cfc4f8b497475634143f59
+Description: Bootstrap a basic Debian system
+ debootstrap is used to create a Debian base system from scratch,
+ without requiring the availability of dpkg or apt. It does this by
+ downloading .deb files from a mirror site, and carefully unpacking them
+ into a directory which can eventually be chrooted into.
+
+Package: games-adventure
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: beneath-a-steel-sky, bsdgames, dmagnetic, drascula, fizmo-sdl2, flight-of-the-amazon-queen, freedink, frotz, gargoyle-free, glulxe, instead, jzip, lure-of-the-temptress, onscripter, renpy-thequestion, rlvm, scottfree, scummvm, sdlfrotz, sludge-devkit, sludge-engine, xsystem35, xzip, zoom-player
+Suggests: fizmo-ncursesw, qtads, scummvm-tools
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-adventure_5_all.deb
+Size: 5392
+SHA256: 20b090776bae83a1607d15bf70cbd1aa7ca4dcc547a3b07e002c341022a8e2e7
+SHA1: e4d364b0f007fecce52c356e0a6c4f84e4c25e25
+MD5sum: 96a1efe0e9869ba1b0640b1ae62dceab
+Description: Debian's adventure games
+ This metapackage will install adventure games, interpreter and engines.
+
+Package: games-all
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 10
+Recommends: games-finest
+Suggests: games-adventure, games-arcade, games-board, games-c++-dev, games-card, games-chess, games-console, games-content-dev, games-education, games-emulator, games-fps, games-java-dev, games-minesweeper, games-mud, games-perl-dev, games-platform, games-programming, games-puzzle, games-python3-dev, games-racing, games-rogue, games-rpg, games-shootemup, games-simulation, games-sport, games-strategy, games-tetris, games-toys, games-typing
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-all_5_all.deb
+Size: 3436
+SHA256: ca2427d58367d38a1172e7aaa2ef5c817f5208f01b98a6ee70b965d1c22dfcb6
+SHA1: a93373aa7d5e328378de596ccd46fa55aa290b3b
+MD5sum: cef891060b1392e54c812bdfc7b09d2e
+Description: Default selection of tasks for Debian Games
+ This package is part of the Debian Games Pure Blend and installs all
+ tasks for a default installation of this blend.
+
+Package: games-arcade
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: a7xpg, abe, airstrike, alienblaster, antigravitaattori, armagetronad, asylum, atanks, ballerburg, barrage, bloboats, bomberclone, bouncy, briquolo, btanks, bugsquish, bumprace, burgerspace, ceferino, chromium-bsu, circuslinux, criticalmass, cutemaze, dangen, dodgindiamond2, epiphany, excellent-bifurcation, freedroid, freegish, funnyboat, garden-of-coloured-lights, gav, geki2, geki3, gltron, gravitation, gravitywars, gunroar, hannah, hedgewars, heroes, icebreaker, ii-esu, jumpnbump, jumpnbump-levels, ketm, kobodeluxe, komi, koules, krank, kraptor, late, lbreakout2, lbreakouthd, lierolibre, luola, madbomber, maelstrom, marsshooter, mirrormagic, moon-buggy, moon-lander, mousetrap, mrboom, mrrescue, mu-cade, netmaze, neverball, njam, noiz2sa, open-invaders, orbital-eunuchs-sniper, overgod, pacman, pangzero, parsec47, passage, pekka-kana-2, penguin-command, performous, pianobooster, pinball, pinball-table-gnu, pinball-table-hurd, plee-the-bear, pong2, powermanga, projectl, rafkill, ri-li, rockdodger, rrootage, scorched3d, sdl-ball, snake4, solarwolf, sopwith, spacearyarya, starfighter, starvoyager, supertransball2, supertux, tatan, tecnoballz, teeworlds, tenmado, titanion, tomatoes, torus-trooper, trackballs, transcend, triplane, tumiki-fighters, tuxmath, tuxpuck, tuxtype, val-and-rick, vectoroids, viruskiller, vonsh, vor, warmux, wing, wizznic, wordwarvi, xbill, xblast-tnt, xevil, xgalaga, xgalaga++, xinv3d, xonix, xracer, xsoldier, xtron, zatacka
+Suggests: efp, funguloids, gnome-games, kdegames, netrek-client-cow, spout
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-arcade_5_all.deb
+Size: 6036
+SHA256: 39b089cf14f1e8fd18b9c180585fe037a94c853b4e13dd90eff70bc6722bf393
+SHA1: 62840e565da545b40a49a1ef5263e72e88e7930a
+MD5sum: bfd9a5d81102d4b2bf5278794fa9b216
+Description: Debian's arcade games
+ This metapackage will install arcade games.
+
+Package: games-board
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 3dchess, ace-of-penguins, biloba, brutalchess, bsdgames, cgoban, cl-reversi, colorcode, dossizola, eboard, el-ixir, fairymax, filler, fltk1.3-games, gamazons, gbatnav, glaurung, gnubg, gnuchess, gnugo, gnuminishogi, grhino, gtkatlantic, gtkboard, hachu, hexxagon, jester, kgames, mah-jong, mancala, mgt, monopd, morris, nettoe, openyahtzee, peg-e, peg-solitaire, pegsolitaire, pente, pentobi, pgn-extract, phalanx, pioneers, qgo, quarry, ricochet, scid, sgf2dg, sjeng, tourney-manager, xboard, xchain, xfrisk, xgammon, xmabacus, xmahjongg, xshogi, xvier
+Suggests: gnome-games, kdegames, texlive-games
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-board_5_all.deb
+Size: 5500
+SHA256: ebc1a7130c1e9c4bfe3c64372d903e0ffb326f222d09ec08d5939f3d41d9b643
+SHA1: fb7c767fb9efbff358bf0bc8d1bc5d3fd3fc5107
+MD5sum: b1029e28f0a934aee169e64fa69534c1
+Description: Debian's board games
+ This metapackage will install board games.
+
+Package: games-c++-dev
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: chipmunk-dev, liballegro5-dev, libalure-dev, libalut-dev, libboost-all-dev, libbox2d-dev, libbullet-dev, libbulletml-dev, libcegui-mk2-dev, libclanlib-dev, libclaw-dev, libenet-dev, libflatzebra-dev, libfreetype6-dev, libgl1-mesa-dev, libglc-dev, libglew-dev, libglfw3-dev, libglu1-mesa-dev, libgphobos-dev, libirrlicht-dev, libjpeg-dev, libltdl-dev, libode-dev, libogg-dev, libopenal-dev, libopenscenegraph-dev, libphysfs-dev, libpng-dev, libsdl2-dev, libsfml-dev, libtiff5-dev, libvorbis-dev, libxml2-dev
+Suggests: 0ad, burgerspace, codeblocks, codelite, cube2, freeorion, geany, libkxl0-dev, marsshooter, parsec47, torus-trooper, vim
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-c++-dev_5_all.deb
+Size: 5560
+SHA256: 39893945dd502398dca56f9dc64e255ea6d25abe688c14aad4cc48a919e260f5
+SHA1: 45cb5115ed5af252f2983beb655bc2a348cd2b03
+MD5sum: f3e59fdd842bf8cf1df044a6a6c250a7
+Description: development of games in C/C++/D
+ This metapackage will install a selection of suitable tools and packages to
+ develop games in the C/C++ and D programming languages. Example games written
+ in C/C++ and D are suggested.
+
+Package: games-card
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: ace-of-penguins, aisleriot, deal, dealer, gsalliere, lmemory, openpref, pescetti, pokerth, tenace, xmille, xpat2, xskat, xsol
+Suggests: gnome-games, kdegames, pysolfc, yahtzeesharp
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-card_5_all.deb
+Size: 5280
+SHA256: 88e84c141dc9cfe5b9b124edfdf1329c0384e398d9ace19a37daf26d850056b3
+SHA1: 94b178a60efc3b20ca3607ad82482cedd5f2e771
+MD5sum: e2861774faa4255a5efc43ee9ca4dc20
+Description: Debian's card games
+ This metapackage will install card games.
+
+Package: games-chess
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 3dchess, brutalchess, chessx, dreamchess, eboard, ethereal-chess, fairy-stockfish, fairymax, glaurung, gnuchess, gnuchess-book, gnushogi, gpsshogi, gpsshogi-viewer, hachu, hoichess, pgn-extract, pgn2web, phalanx, polyglot, pychess, scid, shogivar, sjaakii, sjeng, stockfish, tagua, toga2, tourney-manager, uci2wb, xboard, xshogi
+Suggests: crazywa, fathom, fruit, gnome-games, kdegames, leela-zero, liblizzie-java, texlive-games
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-chess_5_all.deb
+Size: 5404
+SHA256: 5ca70731906a79cf2925245315576081b17c245367154332d193c956500f662c
+SHA1: b8ce2b14571a29639c13ea2c21d5f55e39ba16ab
+MD5sum: 070a53ea7db39ae0b84bad4a008d37a6
+Description: Debian's chess games
+ This metapackage will install chess games and helper tools.
+
+Package: games-console
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 2048, an, angband, animals, asciijump, bastet, bombardier, bsdgames, cavezofphear, cbonsai, chroma-curses, colossal-cave-adventure, crawl, curseofwar, empire, freesweep, gearhead, gnugo, gnuminishogi, greed, matanza, moria, nbsdgames, nethack-console, netris, nettoe, ninvaders, nsnake, nudoku, ogamesim, omega-rpg, open-adventure, pacman4console, pacvim, petris, piu-piu, robotfindskitten, slashem, sudoku, tetrinet-client, tint, tintin++, trader, tty-solitaire, vitetris
+Suggests: termtris
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-console_5_all.deb
+Size: 5488
+SHA256: 729f672b5caae8a5284190da866288bdb60097df9be3f7072a1cd91d4e91baa8
+SHA1: 2a9fadb63e3e16ab0dc15f601176c57800e74b41
+MD5sum: f33769556585e1948cbedbb326c467cf
+Description: Debian's console games
+ This metapackage will install text console games designed to be used via a
+ text-only computer interface, such as a text terminal.
+
+Package: games-content-dev
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: ardour, audacity, blender, gimp, goverlay, inkscape, mtpaint, povray, tiled
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-content-dev_5_all.deb
+Size: 5404
+SHA256: 3012efc69628b98ff92d622bccd15f1a8bf07458c7a537a2ced834b197827f16
+SHA1: 13fd852d4d835e379619011859890d322bd7fdb4
+MD5sum: eb30ba79bcf633f04ab711c1bc081bb9
+Description: development of game content
+ This metapackage will install a selection of suitable tools and packages for
+ developing and editing game content like graphics, audio and video material. It
+ enables artists to draw complex bitmap and vector images, create animated
+ sprites and pixel art or render 3D images. It can also transform your computer
+ into a full-featured audio workstation.
+
+Package: games-education
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: animals, atomix, basic256, gamine, granule, pysiogame, tuxmath, tuxtype, xball
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-education_5_all.deb
+Size: 5236
+SHA256: 62f996e5aa6dfa6d29f95f640042f92c3b46f1552970b2ea0c512316faaea250
+SHA1: 9c4c9b2d9ae99afe6d913e817b36b33128d2dd45
+MD5sum: 87559ebe8364abfe7f4edf7f935494d8
+Description: Debian's educational games
+ This metapackage will install educational games for young and older children.
+
+Package: games-emulator
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: blastem, cen64, desmume, dolphin-emu, dosbox, fceux, fs-uae-arcade, gngb, hatari, mame, mednaffe, mgba-sdl, mupen64plus-ui-console, nestopia, osmose-emulator, pcsxr, retroarch, stella, virtualjaguar, visualboyadvance, yabause, yuzu
+Suggests: efp, gnome-video-arcade, wine, zsnes
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-emulator_5_all.deb
+Size: 5348
+SHA256: 5ac78e62c3b73cbc4c480076be3676fc429bc8e3d4f660595c648b9ee88a06f6
+SHA1: d840faadb0e4314545d2d1cc5276d3f7a924bf14
+MD5sum: dfd52121ca3b199bccdaa56ccfe368b2
+Description: Debian's emulators for games
+ This metapackage will install emulators.
+
+Package: games-finest
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 0ad, 7kaa, a7xpg, abe, ace-of-penguins, alex4, armagetronad, asc, atomix, bastet, berusky, biniax2, blobby, bloboats, blobwars, blockattack, bsdgames, btanks, burgerspace, bzflag-client, caveexpress, cgoban, chromium-bsu, cultivation, dreamchess, empire, enigma, epiphany, extremetuxracer, flare-game, flightgear, foobillardplus, freeciv, freecol, freedroidrpg, freeorion, frozen-bubble, funnyboat, gnubg, gtkatlantic, gweled, hedgewars, holotz-castle, hyperrogue, kobodeluxe, koules, lbreakout2, lincity-ng, liquidwar, lmemory, lugaru, manaplus, marsshooter, megaglest, micropolis, minetest, nethack-console, nettoe, neverball, neverputt, nexuiz, numptyphysics, open-invaders, openarena, openclonk, openttd, pacman, parsec47, pathological, performous, pinball, pingus, pioneers, pokerth, powermanga, pybik, raincat, redeclipse, ri-li, scorched3d, searchandrescue, sgt-puzzles, solarwolf, sopwith, springlobby, supertransball2, supertux, supertuxkart, tecnoballz, teeworlds, torcs, torus-trooper, tuxfootball, tuxmath, tuxpuck, ufoai, unknown-horizons, warmux, warzone2100, wesnoth, widelands, xmoto
+Suggests: funguloids, pysolfc
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-finest_5_all.deb
+Size: 6072
+SHA256: d23339d4d12dbc2b0b98eef5d18699abad04c199306297a1361a494c5557c82c
+SHA1: 543203f78cfd12e529f0e0751cc9343f6594b982
+MD5sum: 4c4d390b77fd30d1e366addc5bc7e46c
+Description: Debian's finest games
+ This metapackage will install a selection of outstanding Debian games
+ representing almost all genres and styles. They were chosen based on multiple
+ factors namely popularity (popcon value), unique gameplay, look and feel,
+ aesthetics, fun factor and a good portion of subjectivity.
+ .
+ Please be prepared that the installation of all games might take a long time
+ depending on your internet connection and hardware. Some games also require a
+ hardware accelerated video card.
+
+Package: games-fps
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: bzflag-client, cube2-data, enemylines3, enemylines7, freedm, freedoom, nexuiz, openarena, rbdoom3bfg, redeclipse, teeworlds
+Suggests: crispy-doom, deutex, doomsday, dsda-doom, eureka, ezquake, ktx, mvdsv, quakespasm, woof-doom
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-fps_5_all.deb
+Size: 5372
+SHA256: a9c4905a900eb28081c647511fc66f0decdc216fb95dd9e12191d8dc9dc8ede9
+SHA1: b93d4e15e01803e37e67f15df04eae1d1463e8da
+MD5sum: 49a4175b235376d3758d0700dce59443
+Description: Debian's first-person shooter games
+ This metapackage will install fps games or closely related ones, engines and
+ tools which are useful to create or modify game data.
+
+Package: games-java-dev
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: libjava3d-java, libjinput-java, libjogl2-java, liblwjgl-java, libpixels-java, libsvgsalamander-java, libupnp-java
+Suggests: freecol, triplea
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-java-dev_5_all.deb
+Size: 5312
+SHA256: 7b14af2098c9f81a644e1b510c1093d710796a37d73614d37e2c6b15b1c435e5
+SHA1: fc3b04755aa0fe9f81a5832f12c5f678147e68fa
+MD5sum: 0411575d80c8ea3225c87b8ec30ff628
+Description: development of games in Java
+ This metapackage will install a selection of suitable tools and packages to
+ develop games in the Java programming language. Example games written in Java
+ are suggested.
+
+Package: games-minesweeper
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: ace-of-penguins, freesweep, sgt-puzzles, xbomb, xdemineur
+Suggests: aptitude, gnome-mines, kmines
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-minesweeper_5_all.deb
+Size: 5252
+SHA256: 63bffb65627ddf57bffd5c7f5176fe47e3d4f737448f2bf4ef1c3c19317dbd40
+SHA1: b89b6aab110507681f0030c52c0aa44bbfcd830e
+MD5sum: e4c5d9efcb6aa756de4420ded27b26ec
+Description: Debian's minesweeper games
+ This metapackage will install minesweeper games.
+
+Package: games-mud
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: crossfire-client, kildclient, manaplus, tf, tf5, tintin++, tinymux
+Suggests: minetest
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-mud_5_all.deb
+Size: 5236
+SHA256: 35bc0add877964b8ef5520d421c3ee0041f2818faeac9fa9c76efba5c4bd8747
+SHA1: 908078920e9fcb51d34d010afbde37f1621d83cb
+MD5sum: 0dfc54413bf74522dd9066dc951cd0af
+Description: Debian's multi-user-dungeon games
+ This metapackage will install MUD (Multi-User-Dungeon) games.
+
+Package: games-perl-dev
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: libalien-sdl-perl, libimage-magick-perl, libimager-perl, libois-perl, libopengl-perl, libsdl-perl, libsvg-perl
+Suggests: frozen-bubble, pangzero, pkg-perl-tools
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-perl-dev_5_all.deb
+Size: 5324
+SHA256: 33d7b2d38407ff3d130291d0aec6508fb571684aed55f5818564411acc6fb169
+SHA1: ff62a2843d7e696f34368dd561e92e6923010d42
+MD5sum: 03f6eb3ba3c3b06a3a31311761a2fadc
+Description: development of games in Perl
+ This metapackage will install a selection of suitable tools and packages to
+ develop games in the Perl programming language. Example games written in Perl
+ are suggested.
+
+Package: games-platform
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: abe, alex4, amphetamine, asylum, ballz, between, blobandconquer, blobwars, caveexpress, davegnukem, ddnet, gnujump, holotz-castle, jumpnbump, jumpnbump-levels, mazeofgalious, nikwi, oneisenough, pachi, pekka-kana-2, plee-the-bear, seahorse-adventures, supertux, toppler, whichwayisup, xjump, xmoto, xscavenger
+Suggests: edgar
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-platform_5_all.deb
+Size: 5368
+SHA256: e717a4717500f40ad57aeb5e3a0995298b58bdccc84440fab3f48f3fe8943fd2
+SHA1: b02a9d06280a480ec33c087a191777698b1930ac
+MD5sum: da492b0f738cc88ed400c49715b06133
+Description: Debian's platform games
+ This metapackage will install platform games.
+
+Package: games-programming
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: basic256, colobot, laby, robocode
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-programming_5_all.deb
+Size: 5224
+SHA256: 65acf580d68f3838e2d577c168010512da9595f554a6534d1dd9dc55123f217c
+SHA1: 7338b6dce19d9b8a63f947b64adf6f7399b1707d
+MD5sum: 2fcbdb72ee65349900036d3e510ba7c3
+Description: Debian's programming games
+ This metapackage will install programming games aiming to teach programming
+ through entertainment.
+
+Package: games-puzzle
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 2048, 2048-qt, ace-of-penguins, amoebax, atom4, atomix, auralquiz, berusky, berusky2, between, biniax2, black-box, blockattack, blocks-of-the-undead, brainparty, bsdgames, cavepacker, chroma, chromono, connectagram, einstein, enigma, explosive-c4, fillets-ng, fltk1.3-games, freealchemist, freesweep, gbrainy, gfpoken, glpeces, gmult, gnome-mahjongg, gnurobbo, gplanarity, greed, groundhog, gtans, gtkballs, gweled, hex-a-hop, hexalate, hitori, jag, jigzo, kball, lightsoff, lmarbles, miceamaze, mirrormagic, mokomaze, monsterz, numptyphysics, parolottero, pathogen, pathological, phlipple, pipenightdreams, pipewalker, primrose, pushover, puzzle-jigsaw, pybik, qxw, raincat, sgt-puzzles, sudoku, sudoku-solver, tanglet, tetzle, tworld, vodovod, wizznic, xbomb, xdemineur, xmpuzzles, xshisen, xsok, xye, zaz
+Suggests: gnome-games, kdegames, lix, texlive-games, xjig
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-puzzle_5_all.deb
+Size: 5684
+SHA256: 476efaed3dbf1f1844d472a89782f48abd50492210404777a814965d0c2691f7
+SHA1: a6efd13d7bab74ee850ee6c034244fba3073d33c
+MD5sum: e68571c0970a98f14601dd8d022fb6fd
+Description: Debian's puzzle games
+ This metapackage will install puzzle and logic games.
+
+Package: games-python2-dev
+Source: debian-games
+Version: 3
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 25
+Depends: games-tasks (= 3)
+Recommends: python-box2d, python-opengl, python-pil, python-pyassimp, python-pygame, python-pygame-sdl2, python-pyglet, python-rabbyt, python-renpy, python-sfml, python-tofu
+Suggests: angrydd, eric, ninja-ide, pathological, python-kivy, python-sdl2, seahorse-adventures, solarwolf, vim, whichwayisup
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-python2-dev_3_all.deb
+Size: 9324
+SHA256: 97dc9d50e012beb214776c6f8c5040250458517c4fce2b6310110db7c67528fa
+SHA1: 05c866e767f80132af3cb6c4071eb200b47852ef
+MD5sum: 52ed0a83e8de741c82c4a039d94c42ce
+Description: development of games in Python 2
+ This metapackage will install a selection of suitable tools and packages to
+ develop games in the Python 2 programming language. Example games written in
+ Python 2 are suggested.
+
+Package: games-python3-dev
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: python3-fife, python3-kivy, python3-opengl, python3-pil, python3-pygame, python3-sdl2, python3-sfml
+Suggests: eric, pybik, python3-minecraftpi, python3-pyqt5.qtopengl, vim
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-python3-dev_5_all.deb
+Size: 5328
+SHA256: 04c076d77a9fd5aae25641751f70b302ffeacc588d53e13ce3118f13883621d9
+SHA1: 408a81f8d98577ebf87315a6b0a52abd2c00b1e7
+MD5sum: ca14ac85ea3c39ce268e4d3bf9372aa0
+Description: development of games in Python 3
+ This metapackage will install a selection of suitable tools and packages to
+ develop games in the Python 3 programming language. Example games written in
+ Python 3 are suggested.
+
+Package: games-racing
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: antigravitaattori, armagetronad, bloboats, dustracing2d, extremetuxracer, gltron, pink-pony, pyracerz, stormbaancoureur, supertuxkart, torcs, trigger-rally, trophy, xmoto, xracer
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-racing_5_all.deb
+Size: 5284
+SHA256: 8df337844ca45ad1cfdfd319d44b6668098a0da8e4d643522f462b3a08098864
+SHA1: 082c51fb7ee2a6df5e3e9804e0491b8d293e4c6a
+MD5sum: 561d99a7931cff017fc6297b092782af
+Description: Debian's racing games
+ This metapackage will install racing games.
+
+Package: games-rogue
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: allure, angband, boohu, cataclysm-dda-sdl, crawl, gearhead, gearhead2, hearse, hyperrogue, lambdahack, meritous, moria, nethack-x11, omega-rpg, slashem
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-rogue_5_all.deb
+Size: 5300
+SHA256: 8a5c1775c111a1459eb0f1862976a86dc07659cf9898e4c85c9f7029bf46124d
+SHA1: dd00755578d255410017c78fd7639b3a42eb21db
+MD5sum: 16fa55524c1250a796bd877bb3c61a5b
+Description: Debian's roguelike games
+ This metapackage will install dungeon crawling games in the spirit of Rogue.
+
+Package: games-rpg
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: adonthell, ardentryst, bsdgames, crossfire-client, flare-game, freedink, freedroidrpg, gm-assistant, kildclient, magicmaze, manaplus, openmw, openmw-cs, rolldice, slashem
+Suggests: minetest
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-rpg_5_all.deb
+Size: 5288
+SHA256: bcd2834333d308a5f441c474215480116fbf5d7dea0d58f52713f26d3346e2fe
+SHA1: 4f814ed26e76c85b6bf46a9a380ea4fc1ab356eb
+MD5sum: 3045b7de7a49cbf617e71ba8cde84551
+Description: Debian's roleplaying games
+ This metapackage will install rpg games.
+
+Package: games-shootemup
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: alienblaster, chromium-bsu, criticalmass, dangen, dodgindiamond2, excellent-bifurcation, freedroid, funnyboat, geki2, geki3, gunroar, ii-esu, ketm, kraptor, maelstrom, marsshooter, mu-cade, noiz2sa, open-invaders, overgod, parsec47, piu-piu, powermanga, projectl, rafkill, rockdodger, rrootage, sopwith, starfighter, tatan, tenmado, titanion, torus-trooper, transcend, triplane, tumiki-fighters, val-and-rick, viruskiller, wing, wordwarvi, xgalaga, xgalaga++, xinv3d, xsoldier
+Suggests: barrage, gravitywars, supertransball2
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-shootemup_5_all.deb
+Size: 5660
+SHA256: 71e0833aab7d33ed75b6e37bee21ce5297798e897cc22944d91ffbd699a018eb
+SHA1: 34a6c90384bed95e0d2d74f65d05c23de16a2b7c
+MD5sum: bf200ba20377311b2086925926b0926c
+Description: Debian's shoot 'em up games
+ This metapackage will install mainly shoot 'em up games also known as shmup
+ or STG and some closely related shooter games.
+ Shmups are a subgenre of the shooter genre of video games. They often involve a
+ spacecraft or aircraft shooting large numbers of enemies while dodging their
+ attacks.
+
+Package: games-simulation
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: acm, billard-gl, bzflag-client, crrcsim, csmash, cultivation, flightgear, foobillardplus, gl-117, gtkpool, lincity, lincity-ng, micropolis, opencity, openssn, openttd, pinball, robotfindskitten, searchandrescue, simutrans, singularity, stormbaancoureur
+Suggests: bsdgames, lightspeed, netrek-client-cow, pmars
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-simulation_5_all.deb
+Size: 5356
+SHA256: 77fef6d7f8f5096fe3f5785721f9636aa3f842962b7d70f77e3b09542eda7651
+SHA1: 24f81a330e148cc809f9630e97241e31d55860a6
+MD5sum: ee8d7ffd3b7c7a4a0daaec4b402d6502
+Description: Debian's simulation games
+ This metapackage will install simulation games.
+
+Package: games-sport
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: asciijump, blobby, bygfoot, csmash, etw, freetennis, gav, neverputt, slimevolley, tennix, tuxfootball, tuxpuck
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-sport_5_all.deb
+Size: 5240
+SHA256: 03c7fe0a57aef1f9b0b1a770fc07e9ea91d1aa7459045f672a4d0f7f74caa84d
+SHA1: 0a4bc8500ede2be1d741f714a32112a3fccede71
+MD5sum: 2baaeb81cb851a6588f58bf8fe05e526
+Description: Debian's sport games
+ This metapackage will install sport games.
+
+Package: games-strategy
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: 0ad, 7kaa, asc, atanks, biloba, boswars, bygfoot, crimson, curseofwar, dopewars, empire, endless-sky, freeciv, freecol, freeorion, gbatnav, gigalomania, glob2, hedgewars, ironseed, lgeneral, lightyears, liquidwar, lordsawar, megaglest, naev, netpanzer, ogamesim, openclonk, openttd, pax-britannica, pingus, pioneers, planetblupi, qonk, singularity, spacezero, spring, springlobby, teg, triplea, ufoai, unknown-horizons, warmux, warzone2100, wesnoth, widelands, xfrisk, xscorch, zec
+Suggests: colobot, netrek-client-cow
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-strategy_5_all.deb
+Size: 5476
+SHA256: bf8e592ccba7e77cf28f2a53ba1fa983f6007691eee4e9e94ea504e11681e305
+SHA1: d7713c70cea8326dcf82443597e47eefacfee900
+MD5sum: 3b1c19b933cd2e5602cd2db8ea760059
+Description: Debian's strategy games
+ This metapackage will install strategy games.
+
+Package: games-tasks
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: tasksel
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-tasks_5_all.deb
+Size: 5396
+SHA256: 902681d2ca179a1ff00eb87349147ede4c025570941a26b80565eb1b3a708b8c
+SHA1: 63b030862e50d26fc8172be045067efeb41bd4e1
+MD5sum: 06334a6053ef92c139f3d93629a6decd
+Description: Debian Games tasks for tasksel
+ This package provides Debian Games tasks in tasksel.
+ .
+ These tasks are described in detail at
+ https://blends.debian.org/games/tasks/
+
+Package: games-tetris
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: angrydd, bastet, blockout2, crack-attack, cuyo, flobopuyo, freealchemist, frozen-bubble, galois, gemdropx, ghextris, gtetrinet, ltris, netris, petris, quadrapassel, stax, tetrinet-client, tetrinetx, tint, vitetris, xbubble, xwelltris
+Suggests: kblocks, termtris
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-tetris_5_all.deb
+Size: 5300
+SHA256: c3df560444fb01673e5aed3dd26326d1330907f7aeea969d6027c5848323a32b
+SHA1: afaf9a1fa373b3a33b57e5e8f00eafcdd05c6a79
+MD5sum: a1bc9d8679ac98b154feb5bcea318556
+Description: Debian's tetris-like games
+ This metapackage will install tetris-like games.
+
+Package: games-toys
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: an, animals, bambam, bb, bucklespring, cbonsai, cmatrix, cowsay, dadadodo, filters, floatbg, fortune-mod, fortunes-debian-hints, geekcode, gnomekiss, hollywood, kawari8, lolcat, macopix, ninix-aya, oneko, pipes-sh, polygen, purity, randtype, rotix, rss-glx, sl, tdfsb, tfortune, tfortunes, vigor, wallstreet, wordplay, xaos, xcowsay, xdesktopwaves, xfireworks, xfishtank, xflip, xmountains, xpenguins, xphoon, xplanet, xplanet-images, xsnow, xteddy
+Suggests: fortunate.app
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-toys_5_all.deb
+Size: 5508
+SHA256: 849f8ecda63077777e4634ba585322decc7bc1c759c1ee4b50018d9059f28948
+SHA1: 1f9d3a870ba8a9d0d1b779ee55ff0048800c8636
+MD5sum: 3a8f1ab86e68c424614487d6c34abba0
+Description: Debian's toy games
+ This metapackage will install a collection of desktop toys and console
+ programs that often modify the appearance of your computer and text in a
+ humorous way.
+
+Package: games-typing
+Source: debian-games
+Version: 5
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: games-tasks (= 5)
+Recommends: dvorak7min, klavaro, nlkt, pacvim, randtype, tuxtype, typespeed, xletters
+Homepage: https://blends.debian.org/games/tasks/
+Priority: optional
+Section: metapackages
+Filename: pool/main/d/debian-games/games-typing_5_all.deb
+Size: 5220
+SHA256: 253fd67a859b1eed2e05a1bd9d71776254b3b7cf79ae9be52c95ddcb106a1855
+SHA1: d08e02064ab01e7234bb09162b772f9e7244735f
+MD5sum: e79f9a49d8857ce2f21fe5b0521dc3ae
+Description: Debian's typing games
+ This metapackage will install typing games.
+

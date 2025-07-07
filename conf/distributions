@@ -1,7 +1,7 @@
 Origin: ZERO
 Label: zerosaptrepo
 Codename: stable
-Architectures: amd64 i386 arm64 armhf all
+Architectures: amd64 i386 arm64 armhf
 Components: main
 Description: The Official Repo made by ZERO
 SignWith: 1D838117B7A5A9819760E2C16DC0A264F54D729B
