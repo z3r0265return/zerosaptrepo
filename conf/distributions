@@ -1,0 +1,7 @@
+Origin: ZERO
+Label: zerosaptrepo
+Codename: stable
+Architectures: amd64
+Components: main
+Description: The Official Repo made by ZERO
+SignWith: 5FF2A0B088F27EFD
